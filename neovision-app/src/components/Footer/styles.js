@@ -11,5 +11,10 @@ export const Container = styled.div`
 `;
 export const Text = styled.div`
   margin: 40px auto;
-  font-size: 120%;
+  font-size: 80%;
+
+  @media(min-width: 450px) {
+    margin: 40px auto;
+    font-size: 120%;
+  }
 `;

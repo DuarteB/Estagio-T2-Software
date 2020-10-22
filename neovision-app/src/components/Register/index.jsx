@@ -19,12 +19,14 @@ function Register() {
       <InputArea>
         <NameInput>
           <Input placeholder="Nome">
-            <span>Nome</span>
+            <span>Nome:</span>
+            <input type="text" name="name"/>
           </Input>
         </NameInput>
         <EmailInput>
           <Input placeholder="E-mail">
-            <span>E-mail</span>
+            <span>E-mail:</span>
+            <input type="text" name="e-mail"/>
           </Input>
         </EmailInput>
         <InputButton>
