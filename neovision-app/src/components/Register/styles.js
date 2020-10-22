@@ -28,13 +28,15 @@ export const Title = styled.div`
 `;
 
 export const InputArea = styled.div`
-  margin: 0 auto;
+margin: 0 auto;
+form {
 
   @media(min-width: 720px) {
     display: flex;
     align-items: center;
     margin: 0 auto;
   }
+}
 `;
 
 export const Input = styled.div`
@@ -46,7 +48,7 @@ export const Input = styled.div`
     }
   }
   input {
-  padding: 15px 60px;
+  padding: 15px 10px;
   border-radius: 20px;
   background: var(--white);
   width: 300px;
